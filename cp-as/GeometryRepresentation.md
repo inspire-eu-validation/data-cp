@@ -12,7 +12,7 @@
 
 **Reference(s)**: 
 
-* [TG DS-HY](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/README#ref_TG_DS_CP) IR requirement Section 6.3.1
+* [TG DS-CP](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/README#ref_TG_DS_CP) IR requirement Section 6.3.1
 
 **Test type**: Automated
 
