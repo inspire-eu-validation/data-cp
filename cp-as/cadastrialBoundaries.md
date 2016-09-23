@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Check that cadastral boundaries corresponding to the outline of a cadastral parcel form closed ring (s).
+* Check that [cadastral boundaries](#CadastralBoundary) corresponding to the outline of a cadastral parcel form closed ring (s).
 
 **Reference(s)**: 
 
@@ -30,3 +30,4 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
+CadastralBoundary <a name="CadastralBoundary"></a>   | //schema-element(cp:BasicPropertyUnit)/cp:CadastralBoundary
