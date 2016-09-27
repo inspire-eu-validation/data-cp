@@ -7,6 +7,7 @@
 **Prerequisites**
 
 **Test method**
+
 Automated assertions:
 
 * Check that all instances of the spatial object type [CadastralParcel](#CadastralParcel) have as a thematic identifier the attribute [nationalCadastralReference](#ncr).
