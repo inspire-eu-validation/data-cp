@@ -1,4 +1,4 @@
-# Cadastrial Boundaries
+# Cadastral Boundaries
 
 **Version**: 1
 
@@ -31,4 +31,4 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
 Cadastral Boundary <a name="CadastralBoundary"></a>   | //schema-element(cp:CadastralBoundary)
-Cadastral parcel <a name="CadastralParcel"></a>   | //schema-element(cp:CadastralParcel)
+Cadastral parcel <a name="CadastralParcel"></a>   | //schema-element(cp:CadastralBoundary)/cp:parcel)
