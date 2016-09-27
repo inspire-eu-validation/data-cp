@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Check that all instances of the spatial object type CadastralParcel have as a thematic identifier the attribute nationalCadastralReference.
+* Check that all instances of the spatial object type [CadastralParcel](#CadastralParcel) have as a thematic identifier the attribute [nationalCadastralReference](#ncr).
 
 **Reference(s)**: 
 
@@ -30,3 +30,5 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
+Cadastral Parcel <a name="CadastralParcel"></a>   | //schema-element(cp:CadastralParcel)
+nationalCadastralReference <a name="ncr")></a>  | //schema-element(cp:CadastralParcel)/cp:nationalCadastralReference
