@@ -39,6 +39,8 @@ The list of other coordinate reference system identifiers:
 **Reference(s)**: 
 
 * [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-rs/README#ref_TG_CP_tmpl) IR requirement Section 6.3.3
+* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-rs/README#ref_TG_CP_tmpl) IR requirement Section 1.3
+* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems/README#ref_TG_DS_tmpl) TG requirement 2
 
 **Test type**: Automated
 
@@ -55,4 +57,7 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-
+srsName1 <a name="srsName1"></a>   | $features[.//@srsName[not(. = $crsuris)]]
+srsName2 <a name="srsName2"></a>   | //wfs:boundedBy/\*/@srsName[not(. = $crsuris)] or //gml:boundedBy/\*/@srsName[not(. = $crsuris)]]
+LCC crsuri <a name="crsuriLCC"></a> |('http://www.opengis.net/def/crs/EPSG/0/3034')
+crsuris <a name="crsuris"></a>     | ('http://www.opengis.net/def/crs/EPSG/0/4936', 'http://www.opengis.net/def/crs/EPSG/0/4937', 'http://www.opengis.net/def/crs/EPSG/0/4258', 'http://www.opengis.net/def/crs/EPSG/0/3035', 'http://www.opengis.net/def/crs/EPSG/0/3038', 'http://www.opengis.net/def/crs/EPSG/0/3039', 'http://www.opengis.net/def/crs/EPSG/0/3040', 'http://www.opengis.net/def/crs/EPSG/0/3041', 'http://www.opengis.net/def/crs/EPSG/0/3042', 'http://www.opengis.net/def/crs/EPSG/0/3043', 'http://www.opengis.net/def/crs/EPSG/0/3044', 'http://www.opengis.net/def/crs/EPSG/0/3045', 'http://www.opengis.net/def/crs/EPSG/0/3046', 'http://www.opengis.net/def/crs/EPSG/0/3047', 'http://www.opengis.net/def/crs/EPSG/0/3048', 'http://www.opengis.net/def/crs/EPSG/0/3049', 'http://www.opengis.net/def/crs/EPSG/0/3050', 'http://www.opengis.net/def/crs/EPSG/0/3051', 'http://www.opengis.net/def/crs/EPSG/0/5730', 'http://www.opengis.net/def/crs/EPSG/0/7409')
