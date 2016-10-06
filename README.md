@@ -6,7 +6,6 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-
 | [Application schema, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as) | INSPIRE spatial data set |
 | [Reference Systems, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-rs) | INSPIRE spatial data set |
 
