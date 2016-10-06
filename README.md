@@ -1,19 +1,14 @@
-# Abstract Test Suite: Data Specification on Hydrography (DRAFT)
+# Abstract Test Suite: Data Specification on Cadastral Parcels (DRAFT)
                        
-The Data Specification on Hydrography – Technical Guidelines (version 3.1) and the associated GML application schemas (versions 3.0 and 4.0) specifying requirements for the interoperability of spatial data sets of the data theme hydrography.
+The Data Specification on Cadastral Parcels – Technical Guidelines (version 3.1) and the associated GML application schemas (versions 3.0 and 4.0) specifying requirements for the interoperability of spatial data sets of the data theme cadastral parcels.
 
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [GML application schemas, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-gml) | INSPIRE spatial data set encoded in GML, Hydrography features |
-| [Application schema, Hydrography - Network](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-n-as) | INSPIRE spatial data set |
-| [Application schema, Hydrography - Physical Waters](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-p-as) | INSPIRE spatial data set |
-| [Reference Systems, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-rs) | INSPIRE spatial data set |
-| [Data Consistency, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc) | INSPIRE spatial data set |
-| [Information Accessibility, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia) | INSPIRE spatial data set |
-| [Portrayal, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal) | INSPIRE view service |
-| [Metadata for interoperability, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-metadata) | ISO 19115/19119 metadata record |
+
+| [Application schema, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as) | INSPIRE spatial data set |
+| [Reference Systems, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-rs) | INSPIRE spatial data set |
 
 ## Approach
 
