@@ -46,11 +46,11 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-HY](#ref_TG_DS_HY)  |
+| Identifier                                                        | Status   | Test case in [TG DS-CP](#ref_TG_DS_CP)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Cadastral boundaries](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-n-as/cadastralBoundaries)  | Ready for review  | A.1.8  |
-| [Geometry representation](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-n-as/geometryRepresentation)  | Open issue  | A.1.7  |
-| [Modelling of object references](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-n-as/mor)  | Ready for review  | A.1.9  |
+| [Cadastral boundaries](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/cadastralBoundaries)  | Ready for review  | A.1.8  |
+| [Geometry representation](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/geometryRepresentation)  | Open issue  | A.1.7  |
+| [Modelling of object references](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/mor)  | Ready for review  | A.1.9  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
