@@ -24,4 +24,4 @@ Abbreviation                                     |  XPath expression												
 ------------------------------------------------ | ---------------------------------------------------------------	| ---------------------------------------------------------------
 layer name <a name="name"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:Name | ISO 19128
                                  | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:Identifier | WMTS 1.0.0
-harmonized names <a name="names"></a> | ('HY.PhysicalWaters.Waterbodies', 'HY.PhysicalWaters.LandWaterBoundary', 'HY.PhysicalWaters.Catchments', 'HY.Network', 'HY.PhysicalWaters.HydroPointOfInterest', 'HY.PhysicalWaters.ManMadeObject', 'HY.PhysicalWaters.Wetland', 'HY.PhysicalWaters.Shore')
+harmonized names <a name="names"></a> | ('CP.CadastralParcel', 'CP.CadastralZoning', 'CP.CadastralBoundary')
