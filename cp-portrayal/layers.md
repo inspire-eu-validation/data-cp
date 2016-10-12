@@ -9,14 +9,14 @@
 Inspect the view service, either through HTTP requests or using a software tool that is able to interact with the WMS/WMTS:
  
 * Verify that all layers exist, for which the data set includes hydrographic features.
-* Verify for each layer that title of the layer is the one specified in the column "Layer title" in sub-clause 11.1 or one of the translations in section 8.8 in Annex II of the regulation ([IP IOP](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal/README#ref_IR_IOP), [IP IOP Amd 2](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal/README#ref_IR_IOP_Amd2)). 
+* Verify for each layer that title of the layer is the one specified in the column "Layer title" in sub-clause 11.1 or one of the translations in section 8.8 in Annex II of the regulation ([IP IOP](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-portrayal/README#ref_IR_IOP), [IP IOP Amd 2](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-portrayal/README#ref_IR_IOP_Amd2)). 
 * Using spot checks, verify for each layer that the rendered maps include the hydrographic objects in the data set.
 * Verify for each layer and spatial object type included in the data set, that the default style specified in sub-clause 11.2 is implemented in the view service.
 
 **Reference(s)**:
 
-* [TG DS-HY](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal/README#ref_TG_DS_HY), IR Requirement, Article 14
-* [TG DS-HY](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal/README#ref_TG_DS_HY), TG Requirement 7
+* [TG DS-CP](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-portrayal/README#ref_TG_DS_CP), IR Requirement, Article 14
+* [TG DS-CP](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-portrayal/README#ref_TG_DS_CP), TG Requirement 7
 
 **Test type**: Manual
 
