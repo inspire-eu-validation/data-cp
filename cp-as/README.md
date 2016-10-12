@@ -51,6 +51,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 | [Cadastral boundaries](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/cadastralBoundaries)  | Ready for review  | A.1.8  |
 | [Geometry representation](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/geometryRepresentation)  | Open issue  | A.1.7  |
 | [Modelling of object references](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/mor)  | Ready for review  | A.1.9  |
+| [Code list values](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as/code-list-values)  | Draft  | A.1.3  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
