@@ -12,18 +12,16 @@
 
 This data theme currently has the following asscoiation roles:
 
-* HydroObject.[relatedHydroObject](#relatedHydroObject) : HydroObject
-* WatercourseSeparatedCrossing.[element](#element) : WatercourseLink
-* WatercourseLink.[startNode](#startNode) : HydroNode
-* WatercourseLink.[endNode](#endNode) : HydroNode
-* SurfaceWater.[bank](#bank) : Shore
-* SurfaceWater.[drainsBasin](#drainsBasin) : DrainageBasin
-* SurfaceWater.[neighbour](#neighbour) : StandingWater
-* DrainageBasin.[outlet](#outlet) : SurfaceWater
+* BasicPropertyUnit.[administrativeUnit](#administrativeUnit) : AdministrativeUnit
+* CadastralBoundary.[parcel](#parcel) : CadastralParcel
+* CadastralParcel.[basicPropertyUnit](#basicPropertyUnit) : BasicPropertyUnit
+* CadastralParcel.[administrativeUnit](#administrativeUnit) : AdministrativeUnit
+* CadastralParcel.[zoning](#zoning) : CadastralZoning
+* CadastralZoning.[upperLevelUnit](#upperLevelUnit) : CadastralZoning
 
 **Reference(s)**: 
 
-* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia/README#ref_TG_DS_tmpl) IR requirement Article 4 (2)
+* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_tmpl) IR requirement Article 4 (2)
 
 **Test type**: Automated
 
@@ -41,11 +39,8 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-relatedHydroObject <a name="relatedHydroObject"></a> |  //schema-element(hy:HydroObject)/hy:relatedHydroObject/@xlink:href
-element <a name="element"></a> |  //schema-element(hy-n:WatercourseSeparatedCrossing)/net:element/@xlink:href
-startNode <a name="startNode"></a> |  //schema-element(hy-n:WatercourseLink)/net:startNode/@xlink:href
-endNode <a name="endNode"></a> |  //schema-element(hy-n:WatercourseLink)/net:endNode/@xlink:href
-bank <a name="bank"></a> |  //schema-element(hy-p:SurfaceWater)/hy-p:bank/@xlink:href
-drainsBasin <a name="drainsBasin"></a> |  //schema-element(hy-p:SurfaceWater)/hy-p:drainsBasin/@xlink:href
-neighbour <a name="neighbour"></a> |  //schema-element(hy-p:SurfaceWater)/hy-p:neighbour/@xlink:href
-outlet <a name="outlet"></a> |  //schema-element(hy-p:DrainageBasin)/hy-p:outlet/@xlink:href
+administrativeUnit <a name="administrativeUnit"></a> |  //schema-element(cp:BasicPropertyUnit)/cp:administrativeUnit/@xlink:href or //schema-element(cp:CadastralParcel)/cp:administrativeUnit/@xlink:href
+parcel <a name="parcel"></a>	| //schema-element(cp:CadastralBoundary)/cp:parcel/@xlink:href
+basicPropertyUnit <a name="basicPropertyUnit"></a>	| //schema-element(cp:CadastralParcel)/cp:basicPropertyUnit/@xlink:href
+zoning <a name="zoning"></a>	| //schema-element(cp:CadastralParcel)/cp:zoning/@xlink:href
+upperLevelUnit <a name="upperLevelUnit"></a>	| //schema-element(cp:CadastralZoning)/cp:upperLevelUnit/@xlink:href
