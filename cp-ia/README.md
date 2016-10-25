@@ -63,6 +63,7 @@ Prefix         | Namespace
 -------------- | -------------------------------------------------
 gml            | http://www.opengis.net/gml/3.2
 cp            | http://inspire.ec.europa.eu/schemas/cp/4.0 or urn:x-inspire:specification:gmlas:CadastralParcels:3.0
+cp3 		| urn:x-inspire:specification:gmlas:CadastralParcels:3.0
 
 The following variables are used to refer to the corresponding Xpath expressions in all test descriptions:
 
