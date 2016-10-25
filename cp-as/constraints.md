@@ -36,7 +36,7 @@ brokenLink <a name="brokenLink"/>  |  XML document '$filename', $featureType '$g
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data-ps/3.2/ps-p-as/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data-cp/3.2/cp-as/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
@@ -45,4 +45,4 @@ estimatedAccuracy.uom <a name="estimatedAccuracyUoM"></a> 	| //schema-element(cp
 geometryType <a name="geometryType"></a> 	| 	//schema-element(cp:CadastralParcel)/cp:geometry/*
 CadastralZoning  <a name="CadastralZoning"></a> 	| 	//schema-element(cp:CadastralZoning)
 nationalLevel <a name="nationalLevel"></a> 	| 	//schema-element(cp:CadastralZoning)/cp:nationalLevel/@xlink:href or //schema-element(cp3:CadastralZoning)/cp3:nationalLevel/text()
-upperLevelUnit <a name="upperLevelUnit"></a> 	| 	//schema-element(CadastralZoning)/cp:upperLevelUnit
+upperLevelUnit <a name="upperLevelUnit"></a> 	| 	//schema-element(cp:CadastralZoning)/cp:upperLevelUnit
