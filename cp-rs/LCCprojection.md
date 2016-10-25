@@ -42,7 +42,7 @@ The list of other coordinate reference system identifiers:
 * [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-rs/README#ref_TG_CP_tmpl) IR requirement Section 1.3
 * [TG DS Template](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems/README#ref_TG_DS_tmpl) TG requirement 2
 
-**Test type**: Automated
+**Test type**: Automated/Manual
 
 **Notes**
 
