@@ -10,6 +10,8 @@ The specification specifies the following conformance classes:
 | [Application schema, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as) | INSPIRE spatial data set |
 | [Reference Systems, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-rs) | INSPIRE spatial data set |
 | [Portrayal, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-portrayal) | INSPIRE view service |
+| [Data Consistency, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-dc) | INSPIRE spatial data set |
+| [Information Accessibility, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-ia) | INSPIRE spatial data set |
 
 
 ## Approach
