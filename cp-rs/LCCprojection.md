@@ -41,4 +41,4 @@ Abbreviation                                               |  XPath expression
 srsName1 <a name="srsName1"></a>   | $features[.//@srsName[not(. = $crsuris)]]
 srsName2 <a name="srsName2"></a>   | //wfs:boundedBy/\*/@srsName[not(. = $crsuris)] or //gml:boundedBy/\*/@srsName[not(. = $crsuris)]]
 LCC crsuri <a name="crsuriLCC"></a> |('http://www.opengis.net/def/crs/EPSG/0/3034')
-crsuris <a name="crsuris"></a>     | All the relevant HTTP URI identifiers are available in the following table: https://github.com/INSPIRE-MIF/helpdesk/blob/main/crs.md
+crsuris <a name="crsuris"></a>     | All valid HTTP URI identifiers are available in the following table: https://github.com/INSPIRE-MIF/helpdesk/blob/main/crs.md
