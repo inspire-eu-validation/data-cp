@@ -6,7 +6,7 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [GML application schemas, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-hcp/3.1/cp-gml) | INSPIRE spatial data set encoded in GML, Cadastral Parcels |
+| [GML application schemas, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-gml) | INSPIRE spatial data set encoded in GML, Cadastral Parcels |
 | [Application schema, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-as) | INSPIRE spatial data set |
 | [Reference Systems, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-rs) | INSPIRE spatial data set |
 | [Portrayal, Cadastral Parcels](http://inspire.ec.europa.eu/id/ats/data-cp/3.1/cp-portrayal) | INSPIRE view service |
