@@ -37,10 +37,10 @@ brokenLink <a name="brokenLink"/>  |  XML document '$filename', $featureType '$g
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia/README#namespaces).
 
-Abbreviation                                               |  XPath expression
----------------------------------------------------------- | -------------------------------------------------------------------------
-administrativeUnit <a name="administrativeUnit"></a> |  //schema-element(cp:BasicPropertyUnit)/cp:administrativeUnit/@xlink:href or //schema-element(cp:CadastralParcel)/cp:administrativeUnit/@xlink:href
-parcel <a name="parcel"></a>	| //schema-element(cp:CadastralBoundary)/cp:parcel/@xlink:href
-basicPropertyUnit <a name="basicPropertyUnit"></a>	| //schema-element(cp:CadastralParcel)/cp:basicPropertyUnit/@xlink:href
-zoning <a name="zoning"></a>	| //schema-element(cp:CadastralParcel)/cp:zoning/@xlink:href
-upperLevelUnit <a name="upperLevelUnit"></a>	| //schema-element(cp:CadastralZoning)/cp:upperLevelUnit/@xlink:href
+Abbreviation                         |  XPath expression    | Multiplicity    | Voidable
+------------------------------------ | ---------------------|-----------------|-----------------------------
+administrativeUnit <a name="administrativeUnit"></a> |  //schema-element(cp:BasicPropertyUnit)/cp:administrativeUnit/@xlink:href or <br> //schema-element(cp:CadastralParcel)/cp:administrativeUnit/@xlink:href | 1 <br> 0..1 | Yes <br> No
+parcel <a name="parcel"></a>	| //schema-element(cp:CadastralBoundary)/cp:parcel/@xlink:href | 1..2 | Yes
+basicPropertyUnit <a name="basicPropertyUnit"></a>	| //schema-element(cp:CadastralParcel)/cp:basicPropertyUnit/@xlink:href | 0..\* | Yes
+zoning <a name="zoning"></a>	| //schema-element(cp:CadastralParcel)/cp:zoning/@xlink:href | 0..1 | Yes
+upperLevelUnit <a name="upperLevelUnit"></a>	| //schema-element(cp:CadastralZoning)/cp:upperLevelUnit/@xlink:href | 0..1 | Yes
